@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 require('dotenv').config();
 
-const { readdirSync } = require('fs')
+const { readdirSync } = require('fs')  // เอาไว้อ่านไฟล์ใน folder
 
 // Routes
 const authRoutes = require('./Routes/auth')

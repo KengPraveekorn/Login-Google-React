@@ -3,7 +3,7 @@ const router = express.Router()
 
 router.get('/product',(req,res)=>{
     //code
-    res.send('hello routes')
+    res.send('hello product')
 })
 
 
